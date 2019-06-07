@@ -1,0 +1,7 @@
+enableItem: true
+itemID: 345
+itemDamage: 0
+
+messageOnlyInGame: "§cThis command only works in game"
+messageNoPlayers: "§cNo other players found in this world"
+messageSuccess: "§eNearest player: §c%player §e(%distance blocks away)"
