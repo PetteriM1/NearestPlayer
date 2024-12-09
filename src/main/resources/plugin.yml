@@ -1,0 +1,20 @@
+name: NearestPlayer
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+main: idk.plugin.nearestplayer.Main
+
+commands:
+  nearestplayer:
+    description: Get nearest player
+    usage: "/nearestplayer"
+    aliases: ["nplayer"]
+    permission: nearestplayer.command
+
+permissions:
+  nearestplayer.command:
+    description: "Allow usage of /nearestplayer and /nplayer commands"
+    default: true
+  nearestplayer.item:
+    description: "Allow usage of nearest player item (if enabled)"
+    default: true
